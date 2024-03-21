@@ -8,6 +8,6 @@ export const POST_DATA_TABLE = 'POST_DATA_TABLE';
 export const POST_DETAIL_TABLE = 'POST_DETAIL_TABLE';
 export const ALLOWEDBROWSERS = ['Chrome', 'Edge', 'Postman'];
 export const ALLOWEDHOSTS = ['localhost:4200', 'localhost:3000', '192.168.1.53:3000','govjobshubback.onrender.com','govjobshub.web.app'];
-export const ALLOWEDPROTOCOLS = ['http', 'https'];
+export const ALLOWEDPROTOCOLS = ['http'];
 export const ALLOWEDMETHOD = ['GET', 'POST', 'PATCH', 'DELETE'];
 export const REQ_URL = 'http://localhost:3000/';
