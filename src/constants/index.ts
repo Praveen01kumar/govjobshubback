@@ -10,4 +10,5 @@ export const ALLOWEDBROWSERS = ['Chrome', 'Edge', 'Postman'];
 export const ALLOWEDHOSTS = ['localhost:4200', 'localhost:3000', '192.168.1.53:3000','govjobshubback.onrender.com','govjobshub.web.app'];
 export const ALLOWEDPROTOCOLS = ['http', 'https'];
 export const ALLOWEDMETHOD = ['GET', 'POST', 'PATCH', 'DELETE'];
+export const ALLOWEDCORS = ['http://localhost:4200', 'https://govjobshub.web.app'];
 export const REQ_URL = 'http://localhost:3000/';

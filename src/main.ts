@@ -4,12 +4,12 @@ import { AppModule } from './app.module';
 import { ValidateInputPipe } from './pipes/validate.pipe';
 import { DbExceptionFilter } from './pipes/db-exception.filter';
 import * as bodyParser from 'body-parser';
-import { ALLOWEDMETHOD } from './constants';
+import { ALLOWEDCORS, ALLOWEDMETHOD } from './constants';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { cors: true });
   app.enableCors({
-    origin: 'https://govjobshub.web.app',
+    origin: ALLOWEDCORS,
     credentials: true,
     methods: ALLOWEDMETHOD,
   });
