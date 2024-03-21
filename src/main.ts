@@ -9,7 +9,7 @@ import { ALLOWEDMETHOD } from './constants';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { cors: true });
   app.enableCors({
-    origin: 'http://localhost:4200',
+    origin: 'https://govjobshub.web.app',
     credentials: true,
     methods: ALLOWEDMETHOD,
   });
