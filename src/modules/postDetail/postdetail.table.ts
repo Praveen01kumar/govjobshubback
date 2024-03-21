@@ -3,7 +3,7 @@ import { Table, Column, Model, DataType, ForeignKey, PrimaryKey, Default } from 
 import { v4 as uuidv4 } from 'uuid';
 import { PostData } from '../postData/postdata.table';
 
-@Table
+@Table({tableName:'postdetails'})
 export class PostDetail extends Model<PostDetail> {
 
     @PrimaryKey

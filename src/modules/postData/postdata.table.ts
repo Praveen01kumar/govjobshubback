@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { PostList } from '../postList/post.table';
 import { PostDetail } from '../postDetail/postdetail.table';
 
-@Table
+@Table({tableName:'postdatas'})
 export class PostData extends Model<PostData> {
 
     @PrimaryKey

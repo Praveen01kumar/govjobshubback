@@ -3,7 +3,7 @@ import { Table, Column, Model, DataType, PrimaryKey, Default, HasMany } from 'se
 import { v4 as uuidv4 } from 'uuid';
 import { PostData } from '../postData/postdata.table';
 
-@Table
+@Table({tableName:'postlists'})
 export class PostList extends Model<PostList> {
 
     @PrimaryKey
